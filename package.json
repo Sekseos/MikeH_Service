@@ -1,0 +1,34 @@
+{
+  "name": "carousel",
+  "version": "1.0.0",
+  "description": "Carousel App that renders a list of pictures",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "carousel",
+    "picture"
+  ],
+  "author": "MLH",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.1.0",
+    "@babel/core": "^7.1.0",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.2",
+    "css-loader": "^1.0.0",
+    "file-loader": "^6.0.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "style-loader": "^0.23.0",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.1.1",
+    "webpack-dev-server": "^3.10.3"
+  },
+  "dependencies": {
+    "react-hot-loader": "^4.3.11"
+  }
+}
